@@ -873,7 +873,7 @@ nav ul li {
 
 @media(max-width: 520px) {
 
-    .menu-items {
+      .menu-items {
         flex-direction: column;
     }
 
@@ -894,15 +894,23 @@ nav ul li {
 
     .menu-left-side .list {
         background: none;
-        padding-top: 150px;
+        padding-top: 100px;
     }
 
     .menu-right-side {
-        padding-top: 80px;
+        padding-top: 26px;
+    }
+
+    .menu-contact-info {
+        margin-top: 20px;
     }
 
     .padding-on-list {
-        margin-top: 36px;
+        margin-top: 16px;
+    }
+
+    .menu-button {
+        margin-top: 0;
     }
 
     .logo-size-mediaQuery {
@@ -913,7 +921,13 @@ nav ul li {
 /* /////////////////// SM size @media query ////////////////////// */
 
 @media (max-width: 430px) {
+.padding-on-list {
+        margin-top: 0;
+    }
 
+    .menu-right-side {
+        padding-top: 16px;
+    }
     /* ////////// Dashboard ////////// */
     .dash-content .content h1 {
         font-size: 40px;
